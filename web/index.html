@@ -1,0 +1,20 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Send message</title>
+</head>
+<body>
+<h1>Send message</h1>
+<form method="post" action="http://127.0.0.1:8080/send" enctype="multipart/form-data" >
+    <label>
+        Token
+        <input type="text" name="to">
+    </label>
+    <label>
+        Image
+        <input type="file" name="image">
+    </label>
+    <button type="submit">Send</button>
+</form>
+</body>
+</html>
